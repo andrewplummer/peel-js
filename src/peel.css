@@ -1,0 +1,49 @@
+
+.peel {
+  position: relative;
+  opacity: 0;
+}
+
+.peel-ready {
+  opacity: 1;
+}
+
+.peel-svg-clip-element {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.peel-layer {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  transform-origin: top left;
+}
+
+/*------------] Some Defaults [------------*/
+
+.peel-top {
+  background-color: #81afcb;
+}
+
+.peel-back {
+  background-color: #a0c7df;
+}
+
+.peel-bottom {
+  background-color: #688394;
+}
