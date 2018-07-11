@@ -6,4 +6,4 @@ browsers, but generally excluding IE).
 
 ### Docs and examples
 
-http://andrewplummer.github.io/peel-js/
+https://andrewplummer.github.io/peel-js/
